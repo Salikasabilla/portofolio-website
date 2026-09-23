@@ -1,0 +1,6 @@
+{
+  "name": "Portfolio & Jasa Pembuatan Website",
+  "description": "Website portfolio developer dan platform layanan pembuatan website profesional dengan pelacakan progress pesanan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
