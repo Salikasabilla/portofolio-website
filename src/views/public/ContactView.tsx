@@ -125,7 +125,7 @@ export const ContactView: React.FC<ContactViewProps> = ({ onNavigate }) => {
         <h2 className="text-xl font-bold text-slate-900">Jejaring Sosial & Repositori</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/Salikasabilla"
             target="_blank"
             rel="noreferrer"
             className="p-4 rounded-xl border border-slate-200 hover:border-indigo-600 hover:bg-indigo-50/30 transition-all flex items-center gap-3 group"
@@ -140,7 +140,7 @@ export const ContactView: React.FC<ContactViewProps> = ({ onNavigate }) => {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/salika-sabilla-f/"
             target="_blank"
             rel="noreferrer"
             className="p-4 rounded-xl border border-slate-200 hover:border-indigo-600 hover:bg-indigo-50/30 transition-all flex items-center gap-3 group"
@@ -155,7 +155,7 @@ export const ContactView: React.FC<ContactViewProps> = ({ onNavigate }) => {
           </a>
 
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/salikasf_?igsh=MXh5aDA1YWVjdjExYg=="
             target="_blank"
             rel="noreferrer"
             className="p-4 rounded-xl border border-slate-200 hover:border-indigo-600 hover:bg-indigo-50/30 transition-all flex items-center gap-3 group"

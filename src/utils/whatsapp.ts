@@ -3,7 +3,7 @@
  * Menggunakan format tautan wa.me dengan pesan otomatis berbahasa Indonesia
  */
 
-const DEFAULT_PHONE = (import.meta.env.VITE_WHATSAPP_NUMBER || '6281234567890').replace(/[^0-9]/g, '');
+const DEFAULT_PHONE = (import.meta.env.VITE_WHATSAPP_NUMBER || '6285713411482').replace(/[^0-9]/g, '');
 
 /**
  * Membuat tautan WhatsApp untuk mendiskusikan nomor request yang baru dikirimkan
@@ -11,7 +11,7 @@ const DEFAULT_PHONE = (import.meta.env.VITE_WHATSAPP_NUMBER || '6281234567890').
 export function getWhatsAppRequestLink(requestNumber: string, clientName?: string): string {
   const greeting = clientName ? `Halo, saya ${clientName}. ` : 'Halo, ';
   const message = `${greeting}saya baru saja mengirim request pembuatan website dengan nomor ${requestNumber}. Saya ingin mendiskusikan kebutuhan project saya.`;
-  return `https://wa.me/${DEFAULT_PHONE}?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/6285713411482${DEFAULT_PHONE}?text=${encodeURIComponent(message)}`;
 }
 
 /**
@@ -20,7 +20,7 @@ export function getWhatsAppRequestLink(requestNumber: string, clientName?: strin
 export function getWhatsAppOrderLink(orderNumber: string, projectName?: string): string {
   const projectInfo = projectName ? ` untuk proyek "${projectName}"` : '';
   const message = `Halo, saya ingin menanyakan perkembangan pengerjaan website saya${projectInfo} dengan nomor pesanan ${orderNumber}.`;
-  return `https://wa.me/${DEFAULT_PHONE}?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/6285713411482${DEFAULT_PHONE}?text=${encodeURIComponent(message)}`;
 }
 
 /**

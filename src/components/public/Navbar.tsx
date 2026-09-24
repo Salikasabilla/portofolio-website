@@ -52,7 +52,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
             <div>
               <span className="font-bold text-lg text-slate-900 tracking-tight block leading-tight">
-                Salika Sabilla
+                Salika Sabilla F
               </span>
               <span className="text-xs text-slate-500 font-medium tracking-wide flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>

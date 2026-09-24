@@ -359,7 +359,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
               </div>
               <h3 className="font-bold text-lg">Kode Bersih & Mudah Dipelihara</h3>
               <p className="text-xs text-slate-400 leading-relaxed">
-                Tidak menggunakan template berat acak. Struktur kode dibuat rapi mengikuti kaidah MVC dan Tailwind CSS sehingga ringan dan mudah dikembangkan.
+                Tidak menggunakan template acak. Struktur kode dibuat rapi mengikuti kaidah MVC dan Tailwind CSS sehingga ringan dan mudah dikembangkan.
               </p>
             </div>
 
